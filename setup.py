@@ -7,7 +7,7 @@ __version__="0.0.0"
 
 REPO_NAME = "NLP-Project"
 AUTHOR_USER_NAME ="Somesh140"
-SRC_REPO = "NLP-Project"
+SRC_REPO = "src"
 AUTHOR_EMAIL= "Somesh140@gmail.com"
 
 setup(
@@ -15,7 +15,7 @@ setup(
     version= __version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A small python package for CNN app",
+    description="A small python package",
     long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
