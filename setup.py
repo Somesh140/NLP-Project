@@ -5,9 +5,9 @@ with open("README.md","r",encoding = "utf-8") as f:
 
 __version__="0.0.0"
 
-REPO_NAME = "DeepCNNClassifier"
+REPO_NAME = "NLP-Project"
 AUTHOR_USER_NAME ="Somesh140"
-SRC_REPO = "deepClassifier"
+SRC_REPO = "NLP-Project"
 AUTHOR_EMAIL= "Somesh140@gmail.com"
 
 setup(
