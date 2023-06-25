@@ -1,6 +1,6 @@
 # Project information
-site_name: REPO_NAME_OR_SITE_NAME
-# defeine TOC or order of website-
+site_name: NLP_Project
+# define TOC or order of website-
 nav:
   - Home: index.md
 
@@ -9,8 +9,8 @@ site_description: >-
   DESCRIPTION
 
 # Repository
-repo_name: Somesh140/DVC-DOCS-TEMPLATE
-repo_url: https://github.com/Somesh140/DVC-DOCS-TEMPLATE
+repo_name: Somesh140/NLP-Project
+repo_url: https://github.com/Somesh140/NLP-Project
 
 # Configuration
 theme:
