@@ -71,7 +71,7 @@ def main(config_path, params_path):
     # call a function to save this matrix
     save_matrix(
         df=df_train, 
-        matrix=train_words_tfidf_matrix, 
+        text_matrix=train_words_tfidf_matrix, 
         out_path=featurized_train_data_path)
     
     # for test data
@@ -81,7 +81,7 @@ def main(config_path, params_path):
     test_words_tfidf_matrix = tfidf.transform(test_words_binary_matrix)
     save_matrix(
         df=df_test, 
-        matrix=test_words_tfidf_matrix, 
+        text_matrix=test_words_tfidf_matrix, 
         out_path=featurized_test_data_path)
 
 if __name__ == '__main__':
