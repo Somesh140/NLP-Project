@@ -45,3 +45,25 @@ stages:
       md5: a563ea56a4687403e2709810a4e810d9.dir
       size: 12272600
       nfiles: 2
+  train:
+    cmd: python src/stage_3_train.py
+    deps:
+    - path: artifacts/features
+      hash: md5
+      md5: a563ea56a4687403e2709810a4e810d9.dir
+      size: 12272600
+      nfiles: 2
+    - path: src/stage_3_train.py
+      hash: md5
+      md5: b5f0fbe72a529d919e5a8471257daeb0
+      size: 2445
+    - path: src/utils
+      hash: md5
+      md5: 3d0bae776fd63d72ed550a967ee37b5b.dir
+      size: 5801
+      nfiles: 6
+    outs:
+    - path: artifacts/model/model.pkl
+      hash: md5
+      md5: 3192ed4445e1646b343841d15bb2f9d3
+      size: 3123001
