@@ -1,11 +1,19 @@
 ### dependency
-tqdm
 dvc==3.2.1
 pandas
-joblib
-notebook 
+notebook
 numpy
-PyYAML
+matplotlib
+seaborn
+python-box==6.0.2
+pyYAML
+tqdm
+ensure==1.0.2
+joblib
+types-PyYAML
+Scipy
+Scikit-learn
+lxml
 mkdocs-material
 ### local packages -
  -e . # << uncomment this to install from setup.py
