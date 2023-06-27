@@ -45,7 +45,7 @@ def main(config_path, params_path):
     predictions_probalities = model.predict_proba(X)
     pred = predictions_probalities[:,1]
 
-    logging.info(f"labels, predictions: {list(zip(labels, pred))}")
+    #logging.info(f"labels, predictions: {list(zip(labels, pred))}")
 
     PRC_json_path = config["plots"]["PRC"]
     ROC_json_path = config["plots"]["ROC"]

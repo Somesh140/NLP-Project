@@ -13,6 +13,8 @@ import random
 
 STAGE = "Prepare_data" ## <<< change stage name 
 
+create_directories(["logs"])
+
 logging.basicConfig(
     filename=os.path.join("logs", 'running_logs.log'), 
     level=logging.INFO, 
