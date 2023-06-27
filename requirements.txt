@@ -1,6 +1,6 @@
 ### dependency
 tqdm
-dvc
+dvc==3.2.1
 pandas
 notebook 
 numpy
